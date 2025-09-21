@@ -1,0 +1,18 @@
+{
+  "trainee:1": {
+    "type": "trainee",
+    "dateOfBirth": "1986-06-27",
+    "address": "Melitopol",
+    "firstName": "Anna",
+    "lastName": "Sobol",
+    "trainingsIds": []
+  },
+  "trainer:1": {
+    "type": "trainer",
+    "specialization": "fitness trainer",
+    "firstName": "Marina",
+    "lastName": "Verhovcka",
+    "trainingTypes": ["CARDIO", "CALISTHENICS"],
+    "trainingsIds": []
+  }
+}

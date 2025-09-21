@@ -1,0 +1,92 @@
+2025-09-21 19:32:33,690 DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2cbb3d47
+2025-09-21 19:32:33,705 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-09-21 19:32:33,818 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/credentials/PasswordGenerator.class]
+2025-09-21 19:32:33,821 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/dao/impl/TraineeDAO.class]
+2025-09-21 19:32:33,822 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/dao/impl/TrainerDAO.class]
+2025-09-21 19:32:33,823 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/dao/impl/TrainingDAO.class]
+2025-09-21 19:32:33,824 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/facade/TrainingFacade.class]
+2025-09-21 19:32:33,842 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/notused/TraineeLoader.class]
+2025-09-21 19:32:33,843 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/notused/TraineeStorage.class]
+2025-09-21 19:32:33,844 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/notused/TrainerLoader.class]
+2025-09-21 19:32:33,844 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/notused/TrainerStorage.class]
+2025-09-21 19:32:33,845 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/notused/TrainingLoader.class]
+2025-09-21 19:32:33,845 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/notused/TrainingStorage.class]
+2025-09-21 19:32:33,846 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/processing/DataLoader.class]
+2025-09-21 19:32:33,848 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/processing/EntityProcessor.class]
+2025-09-21 19:32:33,849 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/service/impl/TraineeServiceImpl.class]
+2025-09-21 19:32:33,850 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/service/impl/TrainerServiceImpl.class]
+2025-09-21 19:32:33,850 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/service/impl/TrainingServiceImpl.class]
+2025-09-21 19:32:33,851 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/anya/epamlab/spring-core/spring-core/target/classes/org/example/storage/Storage.class]
+2025-09-21 19:32:33,903 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2025-09-21 19:32:33,912 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-09-21 19:32:33,913 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-09-21 19:32:33,915 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-09-21 19:32:33,916 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2025-09-21 19:32:33,923 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataLoader'
+2025-09-21 19:32:33,950 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver - Found key 'data.file.path' in PropertySource 'environmentProperties' with value of type String
+2025-09-21 19:32:33,961 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-09-21 19:32:33,962 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'passwordGenerator'
+2025-09-21 19:32:33,963 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeDAO'
+2025-09-21 19:32:33,967 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'storage'
+2025-09-21 19:32:33,969 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityProcessor'
+2025-09-21 19:32:33,970 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'entityProcessor' via constructor to bean named 'passwordGenerator'
+2025-09-21 19:32:33,971 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'storage' via constructor to bean named 'entityProcessor'
+2025-09-21 19:32:34,174 DEBUG [main] org.example.processing.DataLoader - reading data from data.json file
+2025-09-21 19:32:34,248 DEBUG [main] org.example.processing.DataLoader - processing entity for key trainer:1 
+2025-09-21 19:32:34,249 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainer:1
+2025-09-21 19:32:34,250 DEBUG [main] org.example.processing.DataLoader - processing entity for key trainee:1 
+2025-09-21 19:32:34,250 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainee:1
+2025-09-21 19:32:34,250 DEBUG [main] org.example.processing.DataLoader - processing entity for key trainer:2 
+2025-09-21 19:32:34,250 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainer:2
+2025-09-21 19:32:34,250 DEBUG [main] org.example.processing.DataLoader - processing entity for key training:1 
+2025-09-21 19:32:34,250 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : training:1
+2025-09-21 19:32:34,250 DEBUG [main] org.example.processing.DataLoader - processing entity for key training:2 
+2025-09-21 19:32:34,250 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : training:2
+2025-09-21 19:32:34,250 DEBUG [main] org.example.processing.DataLoader - processing entity for key trainee:2 
+2025-09-21 19:32:34,250 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainee:2
+2025-09-21 19:32:34,250 DEBUG [main] org.example.processing.DataLoader - processing entity for key trainee:3 
+2025-09-21 19:32:34,250 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainee:3
+2025-09-21 19:32:34,250 DEBUG [main] org.example.processing.DataLoader - processing entity for key trainee:4 
+2025-09-21 19:32:34,251 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainee:4
+2025-09-21 19:32:34,251 DEBUG [main] org.example.processing.DataLoader - processing entity for key training:3 
+2025-09-21 19:32:34,251 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : training:3
+2025-09-21 19:32:34,251 DEBUG [main] org.example.processing.DataLoader - processing entity for key training:5 
+2025-09-21 19:32:34,251 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : training:5
+2025-09-21 19:32:34,251 INFO  [main] org.example.processing.DataLoader - saving read data to storage
+2025-09-21 19:32:34,252 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainerDAO'
+2025-09-21 19:32:34,253 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAO'
+2025-09-21 19:32:34,254 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingFacade'
+2025-09-21 19:32:34,254 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingServiceImpl'
+2025-09-21 19:32:34,255 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainerServiceImpl'
+2025-09-21 19:32:34,256 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeServiceImpl'
+2025-09-21 19:32:34,256 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingServiceImpl' via constructor to bean named 'trainingDAO'
+2025-09-21 19:32:34,256 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingServiceImpl' via constructor to bean named 'trainerServiceImpl'
+2025-09-21 19:32:34,256 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingServiceImpl' via constructor to bean named 'traineeServiceImpl'
+2025-09-21 19:32:34,258 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingFacade' via constructor to bean named 'trainingServiceImpl'
+2025-09-21 19:32:34,258 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingFacade' via constructor to bean named 'trainerServiceImpl'
+2025-09-21 19:32:34,258 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingFacade' via constructor to bean named 'traineeServiceImpl'
+2025-09-21 19:32:34,258 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeLoader'
+2025-09-21 19:32:34,258 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'traineeStorage'
+2025-09-21 19:32:34,259 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainerLoader'
+2025-09-21 19:32:34,259 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainerStorage'
+2025-09-21 19:32:34,259 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingLoader'
+2025-09-21 19:32:34,260 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingStorage'
+2025-09-21 19:32:34,278 INFO  [main] org.example.facade.TrainingFacade - Attempting to create training for trainer 1
+2025-09-21 19:32:34,278 INFO  [main] o.e.service.impl.TrainingServiceImpl - assigning training 3 to trainer 1
+2025-09-21 19:32:34,278 INFO  [main] o.e.service.impl.TrainerServiceImpl - assigning training 3 to trainer 1
+2025-09-21 19:32:34,283 INFO  [main] org.example.facade.TrainingFacade - getting list of trainings for trainer 1
+2025-09-21 19:32:34,284 INFO  [main] org.example.facade.TrainingFacade - Attempting to enroll trainee 1 to training 3
+2025-09-21 19:32:34,284 INFO  [main] o.e.service.impl.TrainingServiceImpl - enrolling trainee 1 for training 3
+2025-09-21 19:32:34,284 WARN  [main] o.e.service.impl.TraineeServiceImpl - training can't be added if it's already exists in trainee's list
+2025-09-21 19:32:34,284 INFO  [main] o.e.service.impl.TraineeServiceImpl - adding training to trainee
+2025-09-21 19:32:34,285 INFO  [main] org.example.facade.TrainingFacade - getting the list of all trainees enrolled on training 3
+2025-09-21 19:32:34,289 INFO  [main] org.example.storage.Storage - listing entities by namespace training :
+2025-09-21 19:32:34,291 INFO  [main] o.e.service.impl.TrainingServiceImpl - withdrawing trainee 1 from training 3
+2025-09-21 19:32:34,292 INFO  [main] o.e.service.impl.TrainingServiceImpl - removing training 3 from trainer 1
+2025-09-21 19:32:34,293 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainer
+2025-09-21 19:32:34,293 INFO  [main] org.example.storage.Storage - generating id for entity Trainer{specialization='null', userId=null, trainingsIds=null, trainingTypes=[CARDIO, CALISTHENICS], firstName='Svitlana', lastName='Kovalchuk', userName='Svitlana.Kovalchuk', password='xaS^*<1I8W', isActive=false}
+2025-09-21 19:32:34,295 DEBUG [main] o.example.processing.EntityProcessor - creating entity with type : trainer
+2025-09-21 19:32:34,295 INFO  [main] org.example.storage.Storage - generating id for entity Trainer{specialization='null', userId=null, trainingsIds=null, trainingTypes=[CARDIO, CALISTHENICS], firstName='Svitlana', lastName='Stoikova', userName='Svitlana.Stoikova', password='oGG&y%wd$L', isActive=false}
+2025-09-21 19:32:34,295 INFO  [main] org.example.storage.Storage - listing entities by namespace trainer :
+2025-09-21 19:32:34,295 INFO  [main] org.example.storage.Storage - removing value with key trainer:7 from storage 
+2025-09-21 19:32:34,295 INFO  [main] org.example.storage.Storage - listing entities by namespace trainer :

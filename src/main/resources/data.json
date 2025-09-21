@@ -1,0 +1,91 @@
+{
+  "trainer:1": {
+    "type": "trainer",
+    "firstName": "Lilia",
+    "lastName": "Levada",
+    "specialization": "fitness-trainer",
+    "trainingTypes": [
+      "STRENGTH","CARDIO"
+    ],
+    "trainingsIds" : []
+  },
+  "trainee:1": {
+      "type": "trainee",
+      "firstName": "Anna",
+      "lastName": "Sobol",
+      "address": "Melitopol",
+      "dateOfBirth" : "1986-06-27",
+      "trainingsIds": []
+  },
+  "trainer:2": {
+    "type": "trainer",
+    "firstName": "Marina",
+    "lastName": "Verhovska",
+    "specialization": "fitness-trainer",
+    "trainingTypes": [
+      "CARDIO","PILATES","STRENGTH","TRX"
+    ],
+    "trainingsIds" : []
+  },
+  "training:1": {
+    "type": "training",
+    "traineeIds" : [],
+    "trainerId" : null,
+    "name": "power step",
+    "trainingType": "CARDIO",
+    "date": "2025-09-10",
+    "duration": 60
+
+  },
+  "training:2": {
+    "type": "training",
+    "traineeIds" : [],
+    "trainerId" : null,
+    "name": "power step",
+    "trainingType": "CARDIO",
+    "date": "2025-09-11",
+    "duration": 60
+  },
+  "trainee:2": {
+    "type": "trainee",
+    "firstName": "Natalia",
+    "lastName": "Bondar",
+    "address": "Dnipro",
+    "dateOfBirth" : "1983-06-18",
+    "trainingsIds": []
+  },
+  "trainee:3": {
+    "type": "trainee",
+    "firstName": "Tatiana",
+    "lastName": "Bondar",
+    "address": "Dnipro",
+    "dateOfBirth": "1983-06-18",
+    "trainingsIds": []
+  },
+  "trainee:4": {
+    "type": "trainee",
+    "firstName": "Svetlana",
+    "lastName": "Kovalchenko",
+    "address": "Melitopol",
+    "dateOfBirth": "1986-08-18",
+    "trainingsIds": []
+  },
+  "training:3": {
+    "type": "training",
+    "traineeIds" : [],
+    "trainerId" : null,
+    "name": "power step",
+    "trainingType": "CARDIO",
+    "date": "2025-09-28",
+    "duration": 60
+  },
+  "training:5": {
+    "type": "training",
+    "traineeIds": [],
+    "trainerId": null,
+    "name": "power step",
+    "trainingType": "CARDIO",
+    "date": "",
+    "duration": 60
+  }
+}
