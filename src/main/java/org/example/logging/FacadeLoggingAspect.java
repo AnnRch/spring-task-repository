@@ -16,7 +16,7 @@ public class FacadeLoggingAspect {
     public void facadeMethods(){}
 
 
-    @Before("facadeMethods")
+    @Before("facadeMethods()")
     public void logMethodCall(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().toShortString();
         Object[] args = joinPoint.getArgs();

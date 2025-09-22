@@ -39,7 +39,6 @@ public class TraineeServiceImpl implements TraineeService {
     public Trainee create(Trainee trainee) {
 
         if(trainee == null){
-            log.error("creation failed, null data was given");
             throw  new NullPointerException("null value was provided");
         }
 
@@ -50,7 +49,6 @@ public class TraineeServiceImpl implements TraineeService {
     public Trainee update(Trainee trainee) {
 
         if(trainee == null){
-            log.error("updating failed because of null data");
             throw new NullPointerException("null value was provided");
         }
 
@@ -60,7 +58,6 @@ public class TraineeServiceImpl implements TraineeService {
     @Override
     public void deleteById(Long id) {
         if(id == null){
-            log.error("can't delete entity, null id was given");
             throw new NullPointerException("null id was provided");
         }
 
@@ -70,7 +67,6 @@ public class TraineeServiceImpl implements TraineeService {
     @Override
     public void addTrainingToTrainee(Trainee trainee, Long trainingId) {
         if(trainee == null || trainingId == null){
-            log.error("operation failed because of null data");
             throw new NullPointerException("null values");
         }
 
@@ -79,9 +75,7 @@ public class TraineeServiceImpl implements TraineeService {
                 ? new ArrayList<>()
                 : new ArrayList<>(trainee.getTrainingsIds());
 
-        log.warn("training can't be added if it's already exists in trainee's list");
         if(!trainingsIds.contains(trainingId)){
-            log.info("adding training to trainee");
            trainingsIds.add(trainingId);
            trainee.setTrainingsIds(trainingsIds);
         }

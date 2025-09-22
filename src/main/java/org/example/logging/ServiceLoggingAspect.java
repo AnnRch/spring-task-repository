@@ -18,7 +18,7 @@ public class ServiceLoggingAspect {
     @Pointcut("execution(public * org.example.service..*(..))")
     public void serviceMethods(){}
 
-    @Before("serviceMethods")
+    @Before("serviceMethods()")
     public void logMethodCall(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().toShortString();
         Object[] args = joinPoint.getArgs();

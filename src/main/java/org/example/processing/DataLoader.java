@@ -32,7 +32,7 @@ public class DataLoader implements BeanPostProcessor{
     private String filePath;
 
     @Override
-    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         if(bean instanceof Storage){
             EntityProcessor entityProcessor = entityProcessorProvider.getIfAvailable();
 

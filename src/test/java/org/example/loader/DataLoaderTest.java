@@ -40,7 +40,7 @@ public class DataLoaderTest {
 
     @MockitoSettings(strictness = Strictness.LENIENT)
     @Test
-    void postProcessBeforeInitializationTest() throws IOException {
+    void postProcessAfterInitializationTest() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
 

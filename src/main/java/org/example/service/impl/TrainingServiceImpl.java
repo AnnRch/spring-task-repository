@@ -30,7 +30,6 @@ public class TrainingServiceImpl implements TrainingService {
     @Override
     public Training getById(Long id) {
         if(id == null){
-            log.error("null id provided");
             throw new NullPointerException("null value");
         }
 
@@ -53,7 +52,6 @@ public class TrainingServiceImpl implements TrainingService {
     public Training create(Training training) {
 
         if(training == null){
-            log.error("creating failed due to null value");
             throw new NullPointerException("null training value");
         }
         return trainingDAO.create(training);
@@ -62,7 +60,6 @@ public class TrainingServiceImpl implements TrainingService {
     @Override
     public Training update(Training training) {
         if(training == null){
-            log.error("updating failed due to null value");
             throw new NullPointerException("null training value");
         }
 
@@ -73,11 +70,9 @@ public class TrainingServiceImpl implements TrainingService {
     public Training createTrainingByTrainer(Trainer trainer, Training training) {
 
         if(trainer.getTrainingsIds().contains(training.getId())){
-            log.error("trainer {} has already assigned for training {}", trainer.getUserId(), training.getId());
             throw new IllegalArgumentException("trainer has already assigned for this training");
         }
 
-        log.info("assigning training {} to trainer {}", training.getId(), trainer.getUserId());
         training.setTrainerId(trainer.getUserId());
         trainerService.addTrainingToTrainer(trainer, training.getId());
 
@@ -88,16 +83,13 @@ public class TrainingServiceImpl implements TrainingService {
     public Training enrollForTraining(Trainee trainee, Training training) {
 
         if(trainee == null || training == null){
-            log.error("enrolling failed due to null values");
             throw new NullPointerException("null values were given");
         }
 
        if(training.getTraineeIds().contains(trainee.getUserId())){
-           log.warn("trainee {} has already enrolled for training {}", trainee.getUserId(), training.getId());
            throw  new IllegalArgumentException("trainee has already enrolled for this training");
        }
 
-       log.info("enrolling trainee {} for training {}", trainee.getUserId(), training.getId());
        List<Long> traineeIds = new ArrayList<>(training.getTraineeIds());
        traineeIds.add(trainee.getUserId());
        training.setTraineeIds(new ArrayList<>(traineeIds));
@@ -109,8 +101,6 @@ public class TrainingServiceImpl implements TrainingService {
 
     @Override
     public Training withdrawFromTraining(Trainee trainee, Training training) {
-
-        log.info("withdrawing trainee {} from training {}", trainee.getUserId(), training.getId());
 
         List<Long> traineeIds = new ArrayList<>(training.getTraineeIds());
         traineeIds.remove(trainee.getUserId());
@@ -128,7 +118,6 @@ public class TrainingServiceImpl implements TrainingService {
     @Override
     public Training removeTrainingFromTrainer(Trainer trainer, Training training) {
 
-            log.info("removing training {} from trainer {}", training.getId(), trainer.getUserId());
             training.setTrainerId(null);
 
             List<Long> trainingIds = new ArrayList<>(trainer.getTrainingsIds());
@@ -143,7 +132,6 @@ public class TrainingServiceImpl implements TrainingService {
     @Override
     public void deleteById(Long id) {
         if(id == null){
-            log.error("deletion failed because of null id provided");
             throw new NullPointerException("null id value was provided");
         }
 
